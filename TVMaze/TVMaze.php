@@ -1,6 +1,6 @@
 <?php
 
-namespace JPinkney\TVMaze;
+namespace DariusIII\TVMaze;
 
 class TVMaze {
 
@@ -180,7 +180,7 @@ class TVMaze {
 	 *
 	 * @param $ID
 	 *
-	 * @return bool|\JPinkney\TVMaze\AKA
+	 * @return bool|\DariusIII\TVMaze\AKA
 	 */
 	public function getShowAKAs($ID)
 	{

@@ -6,26 +6,26 @@
  * Time: 2:15 PM
  */
 
-namespace JPinkney\TVMaze;
+namespace DariusIII\TVMaze;
 
 /**
  * This is the file that you are going to include in each of your new projects
  */
 
 /* - Enable these when desired and pass options through __construct
-use JPinkney\TVMaze\TVProduction;
-use JPinkney\TVMaze\TVShow;
-use JPinkney\TVMaze\Actor;
-use JPinkney\TVMaze\Character;
-use JPinkney\TVMaze\Crew;
-use JPinkney\TVMaze\Episode;
-use JPinkney\TVMaze\AKA;
+use DariusIII\TVMaze\TVProduction;
+use DariusIII\TVMaze\TVShow;
+use DariusIII\TVMaze\Actor;
+use DariusIII\TVMaze\Character;
+use DariusIII\TVMaze\Crew;
+use DariusIII\TVMaze\Episode;
+use DariusIII\TVMaze\AKA;
 */
 
 /**
  * Class Client
  *
- * @package JPinkney\TVMaze
+ * @package DariusIII\TVMaze
  */
 class Client
 {

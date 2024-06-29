@@ -1,5 +1,5 @@
 {
-    "name": "joshpinkney/tv-maze-php-api",
+    "name": "dariusiii/tv-maze-php-api",
     "type": "library",
     "license": "MIT",
     "description": "TVMaze-API-Wrapper",
@@ -7,11 +7,15 @@
         {
             "name": "Josh Pinkney",
             "email": "Joshpinkney@gmail.com"
+        },
+        {
+            "name": "DariusIII",
+            "email": ""
         }
     ],
     "autoload": {
         "psr-4": {
-            "JPinkney\\": ""
+            "DariusIII\\": ""
         }
     }
 }

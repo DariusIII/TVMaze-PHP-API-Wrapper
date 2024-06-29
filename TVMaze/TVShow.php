@@ -6,13 +6,13 @@
  * Time: 2:16 PM
  */
 
-namespace JPinkney\TVMaze;
+namespace DariusIII\TVMaze;
 
 //Check back here if we can move the episode data to the episode class later
 /**
  * Class TVShow
  *
- * @package JPinkney\TVMaze
+ * @package DariusIII\TVMaze
  */
 class TVShow extends TVProduction{
 

@@ -16,7 +16,7 @@ Supported Methods with full example below. Simple example found in Examples.php.
 
     require_once "TVMazeIncludes.php";
 
-    $Client = new JPinkney\TVMaze\Client;
+    $Client = new DariusIII\TVMaze\Client;
     
     /*
      * List of simple ways you can interact with the api

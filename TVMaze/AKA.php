@@ -1,6 +1,6 @@
 <?php
 
-namespace JPinkney\TVMaze;
+namespace DariusIII\TVMaze;
 
 Class AKA
 {

@@ -5,12 +5,12 @@
  * Time: 2:12 PM
  */
 
-namespace JPinkney\TVMaze;
+namespace DariusIII\TVMaze;
 
 /**
  * Class Crew
  *
- * @package JPinkney\TVMaze
+ * @package DariusIII\TVMaze
  */
 class Crew {
 

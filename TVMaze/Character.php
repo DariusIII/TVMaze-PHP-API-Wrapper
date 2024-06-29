@@ -5,7 +5,7 @@
  * Time: 2:15 PM
  */
 
-namespace JPinkney\TVMaze;
+namespace DariusIII\TVMaze;
 
 /*
  *
@@ -15,7 +15,7 @@ namespace JPinkney\TVMaze;
 /**
  * Class Character
  *
- * @package JPinkney\TVMaze
+ * @package DariusIII\TVMaze
  */
 class Character extends TVProduction {
 

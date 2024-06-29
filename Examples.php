@@ -13,7 +13,7 @@ require_once 'TVMazeIncludes.php';
 /*
  * Create a new Client object that will allow us to access all the api's functionality
  */
-$Client = new JPinkney\TVMaze\Client;
+$Client = new DariusIII\TVMaze\Client;
 
 /*
  * List of some methods that you can use. Others will be included in more formal documentation
