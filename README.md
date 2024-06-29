@@ -3,7 +3,7 @@
 An easier way to interact with TVMaze's endpoints. Developed in PHP.
 
 ### Installing VIA Composer
-* composer require joshpinkney/tv-maze-php-api dev-master
+* composer require dariusiii/tv-maze-php-api
 
 ### Goal
  * The goal of this API Wrapper is to turn TVMaze's endpoints into something more object orientated and readable
@@ -64,4 +64,4 @@ Supported Methods with full example below. Simple example found in Examples.php.
 ### Open Source Projects using this
 
  * [nZEDb](https://github.com/nZEDb/nZEDb) Website Link: http://www.nzedb.com/
- * [newznab-tmux](https://github.com/DariusIII/newznab-tmux)
+ * [newznab-tmux](https://github.com/NNTmux/newznab-tmux)
