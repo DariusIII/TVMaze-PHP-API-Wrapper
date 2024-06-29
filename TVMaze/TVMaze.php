@@ -24,8 +24,10 @@ class TVMaze {
 		if (is_array($shows)) {
 			$relevant_shows = [];
 			foreach ($shows as $series) {
-				$TVShow = new TVShow($series['show']);
-				$relevant_shows[] = $TVShow;
+				if (is_array($series['show'])) {
+					$TVShow = new TVShow($series['show']);
+					$relevant_shows[] = $TVShow;
+				}
 			}
 		}
 		return $relevant_shows;
