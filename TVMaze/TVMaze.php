@@ -163,10 +163,12 @@ class TVMaze {
 		$show = $this->getFile($url);
 
 		$cast = [];
-		foreach($show['_embedded']['cast'] as $person){
-			$actor = new Actor($person['person']);
-			$character = new Character($person['character']);
-			$cast[] = [$actor, $character];
+		if($embed_cast === true){
+			foreach($show['_embedded']['cast'] as $person){
+				$actor = new Actor($person['person']);
+				$character = new Character($person['character']);
+				$cast[] = [$actor, $character];
+			}
 		}
 
 		$TVShow = new TVShow($show);
