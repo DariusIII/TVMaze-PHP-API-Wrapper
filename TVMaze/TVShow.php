@@ -124,7 +124,7 @@ class TVShow extends TVProduction{
 		$this->webChannel = isset($show_data['webChannel']) ? $show_data['webChannel'] : null;
 		$this->country = isset($show_data['network']['country']['code']) ? $show_data['network']['country']['code'] : null;
 		if ($this->webChannel !== null && $this->webChannel['country'] !== null) {
-			$this->country = $this->webChannel['country']['country']['code'];
+			$this->country = $this->webChannel['country']['code'];
 		}
 		$this->externalIDs = isset($show_data['externals']) ? $show_data['externals'] : null;
 		$this->summary = isset($show_data['summary']) ? strip_tags($show_data['summary']) : null;
