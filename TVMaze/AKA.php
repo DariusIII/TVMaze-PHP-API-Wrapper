@@ -4,6 +4,8 @@ namespace DariusIII\TVMaze;
 
 Class AKA
 {
+	public string $akas;
+
 	/**
 	 * @param $aka_data
 	 */
