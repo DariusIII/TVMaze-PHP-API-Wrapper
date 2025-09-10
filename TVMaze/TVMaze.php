@@ -204,12 +204,14 @@ class TVMaze {
 	 * Takes in a show ID and outputs all the episode objects for that show in an array
 	 *
 	 * @param $ID
+	 * @param $specials
 	 *
 	 * @return array
 	 */
-	public function getEpisodesByShowID($ID){
-
-		$url = self::APIURL.'/shows/'.$ID.'/episodes';
+	public function getEpisodesByShowID($ID, $specials = false)
+	{
+		$query = $specials ? '?specials=1' : '';
+		$url = self::APIURL.'/shows/'.$ID.'/episodes'.$query;
 
 		$episodes = $this->getFile($url);
 
