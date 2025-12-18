@@ -380,7 +380,6 @@ class TVMaze {
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 		$result = curl_exec($ch);
-		curl_close($ch);
 
 		$response = json_decode($result, TRUE);
 		if (is_array($response) && count($response) > 0 && (!isset($response['status']) || $response['status'] != '404')) {
